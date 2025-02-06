@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .logo a img{
+    font-size: 10px;
+    length: 10%;
+    margin-bottom: 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger-menu .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #007173;
+    border-radius: 5px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    padding: 10px;
+  }
+  
+  .nav-links a {
+    color: #058336;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* The close button for the menu */
+  .close-btn {
+    display: none;
+    color: #058336;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  /* Home section */
+  .home{
+    background-image: url("images/award-homepage_767x720_mobile-3.webp");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home h2{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 300;
+    padding-top: 120px;
+    padding-left: 70px;
+    width: 50%;
+  }
+
+  .home p{
+    color: #fff;
+    font-size: 22px;
+    padding-left: 70px;
+  }
+
+  .branding{
+    padding-left: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 15px;
+  }
+
+  .branding img{
+    font-size: 10px;
+    width: 100px;
+    height: 50px;
+    padding-right: 10px;
+  }
+
+  .explore{
+    padding: 10px 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: #2c726c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 16px;
+  }
+
+  /* Second Section */
+  .second-section{
+    display: flex;
+  }
+
+  .logistics {
+    width: 55%;
+    height: 100vh;
+    padding: 30px 70px;
+    background-color: #034a4b;
+  }
+
+  .logistics h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #00e58e;
+    padding-top: 30px;
+  }
+
+  .logistics h2{
+    color: #00e58e;
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+
+  .logistics p{
+    color: #00e58e;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .logistics button{
+    padding: 10px 30px;
+    
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    color: #00e58e;
+    border: 2px solid #00e58e;
+    border-radius: 16px;
+  }
+
+  .newspaper{
+    width: 45%;
+    height: 100vh;
+  }
+
+  .newspaper-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .newspaper-content span img{
+    font-size: 5px;
+    width: 20px;
+    height: 20px;
+    color: #00e58e;
+  }
+
+  .newspaper-content img{
+    width: 150px;
+    height: 190px;
+    border-top-left-radius: 35px;
+  }
+
+  .outer-div-one{
+    height: 50vh;
+    background-color: #d9ead9;
+  }
+
+  .newspaper-content span span{
+    color: #003134;
+  }
+
+  .newspaper-content span p{
+    color: #003134;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .newspaper-content div{
+    color: #003134;
+  }
+
+  .newspaper-content span div{
+    color: #003134;
+    padding-top: 60px;
+    padding-left: 300px;
+  }
+
+  .blog{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .empty{
+    background-color: #155329;
+    width: 10%;
+    height: 100vh;
+  }
+  
+  /* Make the hamburger menu visible on small screens */
+  @media screen and (max-width: 768px) {
+    .hamburger-menu {
+      display: flex;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 60px; /* Make it appear below the navbar */
+      right: 0;
+      left: 0;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      text-align: center;
+      transition: right 0.3s ease-in-out;
+      display: none;
+      padding: 20px 0;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      padding: 15px;
+      border-top: 1px solid #058336;
+    }
+  
+    .close-btn {
+      display: block;
+    }
+
+    .home {
+      background-image: url("images/award-homepage_767x720_mobile-3.webp");
+      height: 75vh; 
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .home h2 {
+      font-size: 45px; 
+      padding-top: 250px;
+      padding-left: 30px; 
+      width: 100%; 
+    }
+  
+    .home p {
+      font-size: 18px; 
+      padding-left: 30px;
+      display: none; 
+    }
+  
+    .branding {
+      padding-left: 30px; 
+      padding-top: 10px;
+    }
+  
+    .branding img {
+      width: 80px; 
+      height: 40px; 
+      padding-right: 8px; 
+      display: none;
+    }
+  
+    .explore {
+      margin-left: 30px; 
+      margin-top: 20px; 
+      font-size: 20px; 
+      padding: 8px 25px; 
+    }
+  }
+  

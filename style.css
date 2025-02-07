@@ -164,6 +164,39 @@ header{
     color: #fff;
     border: 2px solid #fff;
 }
+
+.logistics {
+  width: 60%;
+  height: 90vh;
+  background-color: #001a17;
+  color: #007300;
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+
+.logistics h3{
+  font-size: 1.5rem;
+}
+
+.logistics h2{
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+.logistics p{
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.learn-more{
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #005805;
+  border: 2px solid #005805;
+}
   
   /* Make the hamburger menu visible on small screens */
   @media screen and (max-width: 768px) {
@@ -218,6 +251,30 @@ header{
       padding: 0.8rem 1.2rem; /* Adjust padding for smaller screens */
       font-size: 0.9rem; /* Reduce font size */
     }
+
+    .logistics {
+    width: 100%; /* Adjusting the width for smaller screens */
+    height: 80vh; /* Let the content adjust naturally */
+    padding-left: 2rem; /* Reduce padding for smaller screens */
+    padding-top: 2rem; /* Adjust padding */
+  }
+
+  .logistics h3 {
+    font-size: 1.2rem; /* Smaller font size for subheading */
+  }
+
+  .logistics h2 {
+    font-size: 2rem; /* Smaller font size for main heading */
+  }
+
+  .logistics p {
+    font-size: 1.1rem; /* Adjust font size for paragraph */
+  }
+
+  .learn-more {
+    padding: 0.8rem 1.2rem; /* Reduce padding of the button */
+    font-size: 0.9rem; /* Adjust button text size */
+    }
   }
   
   @media screen and (max-width: 576px){
@@ -265,4 +322,28 @@ header{
       padding: 0.7rem 1rem; /* Adjust button padding */
       font-size: 0.9rem; /* Smaller font size */
     }
+
+    .logistics {
+    width: 100%; /* Adjusting the width for smaller screens */
+    height: 80vh; /* Let the content adjust naturally */
+    padding-left: 2rem; /* Reduce padding for smaller screens */
+    padding-top: 2rem; /* Adjust padding */
+  }
+
+  .logistics h3 {
+    font-size: 1.2rem; /* Smaller font size for subheading */
+  }
+
+  .logistics h2 {
+    font-size: 2rem; /* Smaller font size for main heading */
+  }
+
+  .logistics p {
+    font-size: 1.1rem; /* Adjust font size for paragraph */
+  }
+
+  .learn-more {
+    padding: 0.8rem 1.2rem; /* Reduce padding of the button */
+    font-size: 0.9rem; /* Adjust button text size */
+  }
 }

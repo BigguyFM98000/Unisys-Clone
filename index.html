@@ -8,37 +8,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-          <a href="#"><img src="images/Unisys_logo.png" alt="Unisys Logo" width="90"></a> 
-        </div>
-        <div class="nav-container">
-          <div class="hamburger-menu" id="hamburgerMenu" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+        <header>
+          <div class="navbar">
+              <div class="logo"><a href="#" ><img src="images/Unisys_logo.png" alt="Unisys Logo" width="90"></a></div>
+              <ul class="links">
+                  <li><a href="hero">Solutions</a></li>
+                  <li><a href="about">Artificial Intelligence</a></li>
+                  <li><a href="services">Resources</a></li>
+                  <li><a href="contact">About</a></li>
+              </ul>
+              <a href="#" class="action_btn">Contact Us</a>
+              <div class="toggle_btn">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
           </div>
-          <ul class="nav-links" id="navLinks">
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Artificial Intelligence</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><span class="close-btn" onclick="toggleMenu()">X</span></li>
-          </ul>
-        </div>
-      </nav>
+
+          <div class="dropdown_menu">
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Artificial Intelligence</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+          </div>
+      </header>
+    
       <section class="home">
-        <h2>Recognised excellence</h2>
-        <p>Leading analysts, industry partners, and media rank<br/>Unisys among the top providers and tech employers—<br/>with momentum that continues to build.</p>
-        <div class="branding">
-          <img src="images/new-newsweek_logo.webp" alt="Newsweek Logo">
-          <img src="images/new-isg_logo.webp" alt="ISG Logo">
-          <img src="images/new-dell-techno_logo.webp" alt="Dell Technologies Logo">
-          <img src="images/new-forbes_logo.webp" alt="Forbes Logo">
+          <div class="home-container">
+            <h2>Recognised <br/>excellence</h2>
+              <p>Leading analysts, industry partners, and media rank<br/>Unisys among the top providers and tech employers—<br/>with momentum that continues to build.</p>
+              <div class="branding">
+                <img src="images/new-newsweek_logo.webp" alt="Newsweek Logo">
+                <img src="images/new-isg_logo.webp" alt="ISG Logo">
+                <img src="images/new-dell-techno_logo.webp" alt="Dell Technologies Logo">
+                <img src="images/new-forbes_logo.webp" alt="Forbes Logo">
+              </div>
+              <button class="explore">Explore accolades</button>
         </div>
-        <button class="explore">Explore accolades</button>
+        
       </section>
+      <!-- 
       <section class="second-section">
         <div class="logistics">
           <h3>Logistics Optimization</h3>
@@ -78,7 +86,7 @@
         <div class="empty">
 
         </div>
-      </section>
+      </section> -->
 
     <script src="scripts.js"></script>
 </body>

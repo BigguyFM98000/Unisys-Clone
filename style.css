@@ -154,6 +154,7 @@ header{
 .branding img{
   height: 6.5vh;
 }
+/*Second Page Section*/
 
 .explore {
     margin-top: 2rem;
@@ -196,6 +197,234 @@ header{
   font-size: 1rem;
   color: #005805;
   border: 2px solid #005805;
+}
+/*Second Section*/
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.newspaper-content {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d9ead9;
+  width: 38vw;
+  height: 45vh;
+}
+
+.first-div img{
+  height: 16px;
+  width: 16px;
+}
+
+.first-div span{
+  color: #003134;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.news p{
+  color: #003134;
+  padding-top: 1rem;
+}
+
+.no-show-img img{
+  height: 10.2em;
+  width: 8.4em;
+  border-top-left-radius: 25px;
+}
+
+.threem{
+  color: #003134;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 26vh;
+}
+
+.arrow {
+  color: #003134;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.newspaper{
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-img img{
+  height: 10.2em;
+  width: 10.4em;
+  border-top-left-radius: 1.2rem;
+}
+
+.blog span img{
+  height: 16px;
+  width: 16px;
+}
+
+.outer-div-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+  height: 45vh;
+  width: 38vw;
+}
+
+.blog p{
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.sevenm {
+  color: #003134;
+}
+
+.blog-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 27vh;
+}
+
+.arrowtwo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.empty {
+  width: 2vw;
+  background-color: green;
+}
+
+/*Third Section*/
+.third-section {
+  background-color: #e5e8e8;
+  padding-bottom: 4rem;
+}
+
+.third-section h2{
+  font-size: 3rem;
+  padding: 4rem;
+  color: #003134;
+  font-weight: 300;
+}
+
+.barrier-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+}
+
+.artificial-div img{
+  border-top-left-radius: 2rem;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.content-div {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.content-div h3{
+  color: #003134;
+  padding-bottom: 2rem;
+}
+
+.content-div p{
+  color: #003134;
+  font-size: 1.1rem;
+  padding-bottom: 5rem;
+}
+
+.content-div span a{
+  color: #003134;
+  padding-bottom: 1rem;
+}
+
+.logic-div img{
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.content-div-two{
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.content-div-two h3{
+  color: #003134;
+  padding-bottom: 2rem;
+}
+
+.content-div-two p{
+  color: #003134;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+}
+
+.content-div-two div a{
+  color: #003134;
+  padding-bottom: 1rem;
+}
+
+.application-div img{
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.solutions-btn{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.solutions-btn a{
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #003134;
+  text-decoration: none;
+  color: #003134;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+}
+
+/*Forth Section*/
+.forth-section {
+  background-color: #001008;
+}
+
+.forth-section-content{
+  padding: 2rem 4rem;
+}
+
+.forth-section-content h2{
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.forth-section-content p{
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
   
   /* Make the hamburger menu visible on small screens */
@@ -275,6 +504,125 @@ header{
     padding: 0.8rem 1.2rem; /* Reduce padding of the button */
     font-size: 0.9rem; /* Adjust button text size */
     }
+
+    .second-section{
+      flex-direction: column;
+    }
+
+    .no-show-img{
+      display: none;
+    }
+
+    .second-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .newspaper-content{
+      height: 22vh;
+      background-color: #d9ead9;
+      width: 100%;
+    }
+
+    .cover-img img {
+      display: none;
+    }
+
+    .outer-div-two {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+/*    justify-content: space-between;*/
+    width: 100%;
+  }
+
+  .blog p {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+  }
+
+  .sevenm {
+    font-size: 1rem;
+    color: #003134;
+  }
+
+  .blog-div {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .arrowtwo {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .blog span img {
+    height: 14px;
+    width: 14px;
+    }
+
+    .barrier-container {
+      flex-direction: column;
+    }
+
+    .third-section h2 {
+    font-size: 2.5rem; /* Adjusted font size */
+    padding: 3rem; /* Adjusted padding */
+  }
+
+  .barrier-container {
+    flex-direction: column; /* Stack items vertically */
+    padding-left: 2rem; /* Reduced padding */
+    padding-right: 2rem; /* Reduced padding */
+    padding-bottom: 2rem; /* Reduced padding */
+  }
+
+  .artificial-div, .logic-div, .application-div {
+    margin-bottom: 2rem; /* Add space between the blocks */
+  }
+
+  .artificial-div img, .logic-div img, .application-div img {
+    width: 80%; /* Reduce image size */
+    margin: 0 auto; /* Center images */
+  }
+
+  .content-div, .content-div-two {
+    padding: 1rem;
+  }
+
+  .content-div p, .content-div-two p {
+    font-size: 1rem; /* Adjust text size for better readability */
+    padding-bottom: 3rem; /* Adjust padding */
+  }
+
+  .content-div span a, .content-div-two div a {
+    font-size: 1rem; /* Adjust link font size */
+  }
+
+  .solutions-btn {
+    width: 80%; /* Make the button wider on small screens */
+  }
+
+  .solutions-btn a {
+    padding: 0.8rem 1rem; /* Adjust padding for better fit */
+    font-size: 1rem; /* Slightly smaller text size for mobile */
+    }
+
+    .forth-section-content {
+    padding: 2rem 3rem; /* Reduce the padding on medium screens */
+  }
+
+  .forth-section-content h2 {
+    font-size: 2.5rem; /* Smaller font size for the heading */
+  }
+
+  .forth-section-content p {
+    font-size: 1.2rem; /* Slightly smaller font for paragraphs */
+    }
   }
   
   @media screen and (max-width: 576px){
@@ -345,5 +693,120 @@ header{
   .learn-more {
     padding: 0.8rem 1.2rem; /* Reduce padding of the button */
     font-size: 0.9rem; /* Adjust button text size */
+  }
+
+  .second-section{
+      flex-direction: column;
+    }
+
+  .no-show-img{
+      display: none;
+    }
+
+  .second-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .cover-img img {
+      display: none;
+    }
+
+    .cover-img{display: none;}
+
+
+    .outer-div-two {
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+/*    justify-content: space-between;*/
+    width: 100%;
+  }
+
+  .blog p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .sevenm {
+    font-size: 0.9rem;
+    color: #003134;
+  }
+
+  .arrowtwo {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .blog span img {
+    height: 12px;
+    width: 12px;
+  }
+
+  .blog-div {
+    flex-direction: column;
+    height: auto;
+    margin-top: 0.5rem;
+  }
+
+  .barrier-container {
+      flex-direction: column;
+  }
+
+  .third-section h2 {
+    font-size: 2rem; /* Smaller font size for small screens */
+    padding: 2rem 1rem; /* Adjusted padding */
+  }
+
+  .barrier-container {
+    flex-direction: column; /* Stack items vertically */
+    padding-left: 1rem; /* Reduced padding */
+    padding-right: 1rem; /* Reduced padding */
+    padding-bottom: 2rem; /* Reduced padding */
+  }
+
+  .artificial-div, .logic-div, .application-div {
+    margin-bottom: 1.5rem; /* Add space between the blocks */
+  }
+
+  .artificial-div img, .logic-div img, .application-div img {
+    width: 100%; /* Further reduced image size */
+    margin: 0 auto; /* Center images */
+  }
+
+  .content-div, .content-div-two {
+    padding: 1rem;
+  }
+
+  .content-div p, .content-div-two p {
+    font-size: 0.95rem; /* Smaller font size */
+    padding-bottom: 2rem; /* Adjusted padding */
+  }
+
+  .content-div span a, .content-div-two div a {
+    font-size: 0.95rem; /* Adjusted link font size */
+  }
+
+  .solutions-btn {
+    width: 90%; /* Make the button almost full-width on very small screens */
+  }
+
+  .solutions-btn a {
+    padding: 0.6rem 1rem; /* Smaller padding for tight spaces */
+    font-size: 1rem; /* Adjust font size to fit better */
+  }
+
+  .forth-section-content {
+    padding: 1.5rem 2rem; /* Adjust padding for mobile */
+  }
+
+  .forth-section-content h2 {
+    font-size: 1.8rem; /* Reduce the font size for very small screens */
+  }
+
+  .forth-section-content p {
+    font-size: 1rem; /* Adjust paragraph font size for better readability on mobile */
   }
 }

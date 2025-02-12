@@ -426,7 +426,136 @@ header{
   font-size: 1.3rem;
   font-weight: 400;
 }
-  
+
+/*Cards Slider Code*/
+.card-slider {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.cards-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #001a17;
+  color: white;
+  border-radius: 8px;
+  width: 350px;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.card img{
+  width: 350px;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-content div img{
+  height: 1rem;
+  width: 1rem;
+  filter: #d2ff92;
+}
+
+.card-content p{
+  padding-bottom: 4rem;
+}
+
+.card-content div a{
+  color: #d2ff92;
+}
+
+.card-content div span{
+  color: #d2ff92;
+}
+
+.news-content {
+  padding-bottom: 2rem;
+}
+
+.news-content span{
+  color: #d2ff92;
+  padding-left: 0.5rem;
+}
+
+/* Button styles */
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.prev-btn, .next-btn {
+  background-color: #fff;
+  color: #003b30;
+  padding: 10px 10px;
+  border: 2px solid #003b30;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: #fff;
+}
+
+/*Fifth Section*/
+.fifth-section{
+  padding: 3rem 4rem;
+}
+
+.fifth-section h2{
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: #003134;
+  padding-bottom: 2rem;
+}
+
+/*Sixth section*/
+.sixth-section {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+
+.sixth-section-content {
+  border: 1px solid #030a08;
+  padding: 4rem;
+  border-top-left-radius: 3rem;
+  background-color: #030a08;
+}  
+
+.sixth-section-content h2{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.sixth-section-content p{
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.sixth-section-content div a{
+  text-decoration: none;
+  color: #036702;
+  border: 2px solid #036702;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+}
+
   /* Make the hamburger menu visible on small screens */
   @media screen and (max-width: 768px) {
     body{
@@ -623,6 +752,78 @@ header{
   .forth-section-content p {
     font-size: 1.2rem; /* Slightly smaller font for paragraphs */
     }
+
+    .card-slider {
+    padding: 0 2rem;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .card {
+    width: 45%;
+    font-size: 1.1rem;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 1.2rem;
+  }
+
+  .card-content div img {
+    height: 0.9rem;
+    width: 0.9rem;
+  }
+
+  .card-content p {
+    padding-bottom: 3rem;
+  }
+
+  .slider-controls {
+    gap: 15px;
+  }
+
+  .prev-btn, .next-btn {
+    padding: 10px 15px;
+  }
+
+  .fifth-section {
+    padding: 2.5rem 3rem;
+  }
+
+  .fifth-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .sixth-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sixth-section-content {
+    padding: 2rem;
+    border-top-left-radius: 1.5rem;
+  }
+
+  .sixth-section-content h2 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .sixth-section-content p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .sixth-section-content div a {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+    }
   }
   
   @media screen and (max-width: 576px){
@@ -808,5 +1009,79 @@ header{
 
   .forth-section-content p {
     font-size: 1rem; /* Adjust paragraph font size for better readability on mobile */
+  }
+
+  .card-slider {
+    padding: 0 1rem;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  .card-content div img {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+
+  .card-content p {
+    padding-bottom: 2rem;
+  }
+
+  .slider-controls {
+    flex-direction: row;
+  }
+
+  .prev-btn, .next-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+
+  .fifth-section {
+    padding: 2rem 2rem;
+  }
+
+  .fifth-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .sixth-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sixth-section-content {
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+  }
+
+  .sixth-section-content h2 {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .sixth-section-content p {
+    font-size: 0.9rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .sixth-section-content div a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
   }
 }

@@ -556,6 +556,115 @@ header{
   border-radius: 1.2rem;
 }
 
+/*Seventh Section*/
+.seventh-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.seventh-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.seventh-section-content ul li{
+  list-style: none;
+  padding-bottom: 1rem;
+}
+
+.seventh-section-content ul li a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #007173;
+}
+
+.seventh-section-content ul li a:hover{
+  text-decoration: underline;
+}
+
+.icons-content h2{
+  color: #007173;
+  font-size: 1.7rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  text-align: right;
+}
+
+.combined-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.combined-icons a{
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: lightgray;
+  color: #007173;
+}
+
+.combined-icons a:hover{
+  background-color: #007173;
+  color: #fff;
+}
+
+.mini-line {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*Footer Section*/
+footer{
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-content img{
+  margin-right: 4rem;
+}
+
+.footer-list ul li{
+  list-style: none;
+}
+
+.footer ul li{
+  float: right;
+}
+
+.footer-inner-one a, .footer-inner-two a{
+  text-decoration: none;
+  color: #007173;
+}
+
+.footer-inner-one a:hover, .footer-inner-two a:hover{
+  text-decoration: underline;
+}
+
+.footer-inner-one , .footer-inner-two{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.copyright {
+  color: gray;
+}
+
   /* Make the hamburger menu visible on small screens */
   @media screen and (max-width: 768px) {
     body{
@@ -824,6 +933,90 @@ header{
     font-size: 1rem;
     padding: 0.7rem 1.2rem;
     }
+
+    .seventh-section {
+    flex-direction: column; /* Stack items vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+  }
+
+  .seventh-section-content {
+    width: 100%; /* Take full width */
+  }
+
+  .seventh-section-content ul li {
+    padding-bottom: 0.5rem; /* Reduce padding between list items */
+  }
+
+  .seventh-section-content ul li a {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+
+  .icons-content h2 {
+    font-size: 1.4rem; /* Adjust heading font size */
+    text-align: left; /* Align text to the left for better readability */
+    padding-bottom: 1rem; /* Adjust padding */
+    padding-top: 2rem;
+  }
+
+  .combined-icons {
+    flex-direction: row; /* Keep the icons in a row */
+    gap: 1.5rem; /* Reduce gap between icons */
+    justify-content: flex-start; /* Center icons horizontally */
+  }
+
+  .combined-icons a {
+    padding: 0.4rem; /* Reduce padding on the icons */
+    }
+
+    footer {
+    flex-direction: column; /* Stack footer items vertically */
+    padding: 1rem 2rem; /* Reduce padding for mobile devices */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack the content vertically */
+    align-items: flex-start; /* Align content to the left */
+  }
+
+  .footer-content img {
+    margin-right: 0; /* Remove margin to make the layout cleaner */
+    margin-bottom: 1rem; /* Add space between logo and links */
+  }
+
+  .footer-list {
+    width: 100%; /* Allow the footer list to take full width */
+    display: block; /* Stack the footer lists */
+  }
+
+  .footer-inner-one, .footer-inner-two {
+    flex-direction: column; /* Stack the links vertically */
+    gap: 1rem; /* Reduce the gap between items */
+  }
+
+  .footer-inner-one a, .footer-inner-two a {
+    font-size: 1rem; /* Reduce font size for mobile */
+  }
+
+  .footer-inner-one a, .footer-inner-two a {
+    padding: 0.3rem 0; /* Adjust padding for better spacing */
+  }
+
+  .footer ul li {
+    float: none; /* Remove float to make items stack properly */
+  }
+
+  .copyright {
+    text-align: center; /* Center the copyright text */
+    padding-top: 1rem; /* Add space above copyright */
+    }
   }
   
   @media screen and (max-width: 576px){
@@ -1083,5 +1276,66 @@ header{
   .sixth-section-content div a {
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
+  }
+
+  .seventh-section {
+    padding: 1rem 1rem;
+    flex-direction: column; /* Reduce padding further on extra small screens */
+  }
+
+  .seventh-section-content {
+    width: 100%; /* Full width for all content */
+  }
+
+  .seventh-section-content ul li {
+    padding-bottom: 0.3rem; /* Further reduce padding */
+  }
+
+  .seventh-section-content ul li a {
+    font-size: 0.9rem; /* Further reduce font size */
+  }
+
+  .icons-content h2 {
+    font-size: 1.2rem;
+    padding-top: 2rem; /* Further reduce heading font size */
+  }
+
+  .combined-icons {
+    gap: 1rem; /* Further reduce the gap between icons */
+  }
+
+  .combined-icons a {
+    padding: 0.3rem; /* Smallest padding for extra small screens */
+  }
+
+  footer {
+    padding: 1rem 1rem; /* Reduce padding even more on extra small screens */
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+
+  .footer-content {
+    padding-bottom: 1rem; /* Reduce space between content */
+  }
+
+  .footer-inner-one, .footer-inner-two {
+    gap: 0.8rem; /* Reduce the gap further */
+  }
+
+  .footer-inner-one a, .footer-inner-two a {
+    font-size: 0.9rem; /* Further reduce font size */
+  }
+
+  .footer-inner-one a, .footer-inner-two a {
+    padding: 0.2rem 0; /* Adjust padding */
+  }
+
+  .copyright {
+    font-size: 0.9rem; /* Reduce the size of the copyright text */
   }
 }

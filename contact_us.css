@@ -44,7 +44,6 @@
 
 .global-right{
   width: 65vw;
-  padding-left: 2rem;
 }
 
 .global-content {
@@ -193,7 +192,8 @@
 
 @media screen and (max-width: 768px) {
   .contact-home {
-    height: 50vh;  
+    height: 50vh;
+    width: auto;  
   }
 
   .contact-home h2 {
@@ -212,25 +212,50 @@
     font-size: 1.1rem; 
   }
 
-  .global-left{
-    flex-direction: column;
-  }
+  .global {
+        padding: 1rem;
+    }
 
-  .solutions-content span a,
-  .product-content span a,
-  .inquiry-content span a {
-        font-size: 1.2rem; /* Slightly smaller font size for smaller screens */
-        margin: 5px;
+    .global-left {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .global-content{
+      width: 100%;
+    }
+
+    .global-content h2, .global-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .global-content p {
+        font-size: 0.9rem;
+    }
+
+    .solutions-content, .product-content, .inquiry-content {
+        padding: 0.8rem;
+    }
+
+    .solutions-content i, .product-content i, .inquiry-content i {
+        font-size: 0.9rem;
     }
 
     .form {
-        width: 80%; /* Increase form width on smaller screens */
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form button, .close-btn {
+        width: 100%;
+        padding: 0.7rem;
     }
 }
 
 @media screen and (max-width: 576px){
   .contact-home {
     height: 45vh; 
+    width: auto;
   }
 
   .contact-home h2 {
@@ -253,18 +278,42 @@
     text-align: left; 
   }
 
-  .global-left{
-    flex-direction: column;
-  }
+  .global {
+        padding: 1rem;
+    }
 
-  .solutions-content span a,
-  .product-content span a,
-  .inquiry-content span a {
-        font-size: 1rem; /* Smaller font size for mobile */
-        margin: 5px 0; /* Adjust spacing for mobile devices */
+    .global-left {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .global-content{
+      width: 100%;
+    }
+
+    .global-content h2, .global-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .global-content p {
+        font-size: 0.9rem;
+    }
+
+    .solutions-content, .product-content, .inquiry-content {
+        padding: 0.8rem;
+    }
+
+    .solutions-content i, .product-content i, .inquiry-content i {
+        font-size: 0.9rem;
     }
 
     .form {
-        width: 90%; /* Form takes almost full width on very small screens */
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form button, .close-btn {
+        width: 100%;
+        padding: 0.7rem;
     }
 }

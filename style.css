@@ -665,7 +665,6 @@ footer{
   color: gray;
 }
 
-  /* Make the hamburger menu visible on small screens */
   @media screen and (max-width: 768px) {
     body{
       width: 100%;
@@ -685,62 +684,62 @@ footer{
     }
 
     .home {
-      height: 92vh; /* Reduce height for mobile devices */
+      height: 92vh; 
       background-size: cover;
     }
   
     .home-container {
-      width: 70%; /* Adjust width to be wider on tablets */
+      width: 70%; 
       padding-left: 3rem;
       padding-top: 4rem;
     }
   
     .home-container h2 {
-      font-size: 2.5rem; /* Reduce font size */
+      font-size: 2.5rem; 
       padding-top: 18rem;
     }
   
     .home-container p {
-      font-size: 1.2rem; /* Adjust font size for smaller screens */
-      padding-top: 1rem; /* Reduce the padding for smaller screens */
+      font-size: 1.2rem; 
+      padding-top: 1rem; 
     }
   
     .branding {
-      flex-direction: column; /* Stack the logos vertically */
-      gap: 0.5rem; /* Reduce the gap */
+      flex-direction: column; 
+      gap: 0.5rem; 
     }
   
     .branding img {
-      height: 5vh; /* Smaller logo size */
+      height: 5vh; 
     }
   
     .explore {
-      padding: 0.8rem 1.2rem; /* Adjust padding for smaller screens */
-      font-size: 0.9rem; /* Reduce font size */
+      padding: 0.8rem 1.2rem; 
+      font-size: 0.9rem; 
     }
 
     .logistics {
-    width: 100%; /* Adjusting the width for smaller screens */
-    height: 80vh; /* Let the content adjust naturally */
-    padding-left: 2rem; /* Reduce padding for smaller screens */
-    padding-top: 2rem; /* Adjust padding */
+    width: 100%; 
+    height: 80vh; 
+    padding-left: 2rem; 
+    padding-top: 2rem; 
   }
 
   .logistics h3 {
-    font-size: 1.2rem; /* Smaller font size for subheading */
+    font-size: 1.2rem; 
   }
 
   .logistics h2 {
-    font-size: 2rem; /* Smaller font size for main heading */
+    font-size: 2rem; 
   }
 
   .logistics p {
-    font-size: 1.1rem; /* Adjust font size for paragraph */
+    font-size: 1.1rem; 
   }
 
   .learn-more {
-    padding: 0.8rem 1.2rem; /* Reduce padding of the button */
-    font-size: 0.9rem; /* Adjust button text size */
+    padding: 0.8rem 1.2rem; 
+    font-size: 0.9rem; 
     }
 
     .second-section{
@@ -773,7 +772,6 @@ footer{
     height: auto;
     display: flex;
     flex-direction: row;
-/*    justify-content: space-between;*/
     width: 100%;
   }
 
@@ -808,24 +806,24 @@ footer{
     }
 
     .third-section h2 {
-    font-size: 2.5rem; /* Adjusted font size */
-    padding: 3rem; /* Adjusted padding */
+    font-size: 2.5rem; 
+    padding: 3rem; 
   }
 
   .barrier-container {
-    flex-direction: column; /* Stack items vertically */
-    padding-left: 2rem; /* Reduced padding */
-    padding-right: 2rem; /* Reduced padding */
-    padding-bottom: 2rem; /* Reduced padding */
+    flex-direction: column; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-bottom: 2rem; 
   }
 
   .artificial-div, .logic-div, .application-div {
-    margin-bottom: 2rem; /* Add space between the blocks */
+    margin-bottom: 2rem; 
   }
 
   .artificial-div img, .logic-div img, .application-div img {
-    width: 80%; /* Reduce image size */
-    margin: 0 auto; /* Center images */
+    width: 80%; 
+    margin: 0 auto; 
   }
 
   .content-div, .content-div-two {
@@ -833,33 +831,33 @@ footer{
   }
 
   .content-div p, .content-div-two p {
-    font-size: 1rem; /* Adjust text size for better readability */
-    padding-bottom: 3rem; /* Adjust padding */
+    font-size: 1rem; 
+    padding-bottom: 3rem; 
   }
 
   .content-div span a, .content-div-two div a {
-    font-size: 1rem; /* Adjust link font size */
+    font-size: 1rem; 
   }
 
   .solutions-btn {
-    width: 80%; /* Make the button wider on small screens */
+    width: 80%; 
   }
 
   .solutions-btn a {
-    padding: 0.8rem 1rem; /* Adjust padding for better fit */
-    font-size: 1rem; /* Slightly smaller text size for mobile */
+    padding: 0.8rem 1rem; 
+    font-size: 1rem; 
     }
 
     .forth-section-content {
-    padding: 2rem 3rem; /* Reduce the padding on medium screens */
+    padding: 2rem 3rem; 
   }
 
   .forth-section-content h2 {
-    font-size: 2.5rem; /* Smaller font size for the heading */
+    font-size: 2.5rem; 
   }
 
   .forth-section-content p {
-    font-size: 1.2rem; /* Slightly smaller font for paragraphs */
+    font-size: 1.2rem; 
     }
 
     .card-slider {
@@ -935,87 +933,87 @@ footer{
     }
 
     .seventh-section {
-    flex-direction: column; /* Stack items vertically */
-    padding: 1rem 2rem; /* Reduce padding */
+    flex-direction: column; 
+    padding: 1rem 2rem; 
   }
 
   .seventh-section-content {
-    width: 100%; /* Take full width */
+    width: 100%; 
   }
 
   .seventh-section-content ul li {
-    padding-bottom: 0.5rem; /* Reduce padding between list items */
+    padding-bottom: 0.5rem; 
   }
 
   .seventh-section-content ul li a {
-    font-size: 1rem; /* Reduce font size for smaller screens */
+    font-size: 1rem; 
   }
 
   .icons-content h2 {
-    font-size: 1.4rem; /* Adjust heading font size */
-    text-align: left; /* Align text to the left for better readability */
-    padding-bottom: 1rem; /* Adjust padding */
+    font-size: 1.4rem; 
+    text-align: left; 
+    padding-bottom: 1rem; 
     padding-top: 2rem;
   }
 
   .combined-icons {
-    flex-direction: row; /* Keep the icons in a row */
-    gap: 1.5rem; /* Reduce gap between icons */
-    justify-content: flex-start; /* Center icons horizontally */
+    flex-direction: row; 
+    gap: 1.5rem; 
+    justify-content: flex-start; 
   }
 
   .combined-icons a {
-    padding: 0.4rem; /* Reduce padding on the icons */
+    padding: 0.4rem; 
     }
 
     footer {
-    flex-direction: column; /* Stack footer items vertically */
-    padding: 1rem 2rem; /* Reduce padding for mobile devices */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: column; 
+    padding: 1rem 2rem; 
+    align-items: flex-start; 
   }
 
   .footer-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
   .footer-content {
-    flex-direction: column; /* Stack the content vertically */
-    align-items: flex-start; /* Align content to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
 
   .footer-content img {
-    margin-right: 0; /* Remove margin to make the layout cleaner */
-    margin-bottom: 1rem; /* Add space between logo and links */
+    margin-right: 0; 
+    margin-bottom: 1rem; 
   }
 
   .footer-list {
-    width: 100%; /* Allow the footer list to take full width */
-    display: block; /* Stack the footer lists */
+    width: 100%; 
+    display: block; 
   }
 
   .footer-inner-one, .footer-inner-two {
-    flex-direction: column; /* Stack the links vertically */
-    gap: 1rem; /* Reduce the gap between items */
+    flex-direction: column;
+    gap: 1rem; 
   }
 
   .footer-inner-one a, .footer-inner-two a {
-    font-size: 1rem; /* Reduce font size for mobile */
+    font-size: 1rem; 
   }
 
   .footer-inner-one a, .footer-inner-two a {
-    padding: 0.3rem 0; /* Adjust padding for better spacing */
+    padding: 0.3rem 0; 
   }
 
   .footer ul li {
-    float: none; /* Remove float to make items stack properly */
+    float: none; 
   }
 
   .copyright {
-    text-align: center; /* Center the copyright text */
-    padding-top: 1rem; /* Add space above copyright */
+    text-align: center; 
+    padding-top: 1rem; 
     }
   }
   
@@ -1031,62 +1029,62 @@ footer{
     }
 
     .home {
-      height: 92vh; /* Further reduce height for smaller devices */
+      height: 92vh; 
       background-size: cover;
     }
   
     .home-container {
-      width: 85%; /* Take up most of the screen width */
-      padding-left: 2rem; /* Adjust padding for small screens */
-      padding-top: 3rem; /* Reduce top padding */
+      width: 85%; 
+      padding-left: 2rem; 
+      padding-top: 3rem; 
     }
   
     .home-container h2 {
-      font-size: 2rem; /* Further reduce font size */
+      font-size: 2rem; 
     }
   
     .home-container p {
-      font-size: 1rem; /* Smaller text for mobile devices */
-      padding-top: 0.8rem; /* Adjust padding */
+      font-size: 1rem; 
+      padding-top: 0.8rem; 
     }
   
     .branding {
-      flex-direction: column; /* Stack logos vertically */
-      gap: 0.5rem; /* Keep the gap small */
-      padding-top: 1rem; /* Reduce top padding */
+      flex-direction: column; 
+      gap: 0.5rem; 
+      padding-top: 1rem; 
     }
   
     .branding img {
-      height: 4vh; /* Smaller logos for mobile */
+      height: 4vh; 
     }
   
     .explore {
-      padding: 0.7rem 1rem; /* Adjust button padding */
-      font-size: 0.9rem; /* Smaller font size */
+      padding: 0.7rem 1rem; 
+      font-size: 0.9rem; 
     }
 
     .logistics {
-    width: 100%; /* Adjusting the width for smaller screens */
-    height: 80vh; /* Let the content adjust naturally */
-    padding-left: 2rem; /* Reduce padding for smaller screens */
-    padding-top: 2rem; /* Adjust padding */
+    width: 100%; 
+    height: 80vh; 
+    padding-left: 2rem; 
+    padding-top: 2rem; 
   }
 
   .logistics h3 {
-    font-size: 1.2rem; /* Smaller font size for subheading */
+    font-size: 1.2rem; 
   }
 
   .logistics h2 {
-    font-size: 2rem; /* Smaller font size for main heading */
+    font-size: 2rem;
   }
 
   .logistics p {
-    font-size: 1.1rem; /* Adjust font size for paragraph */
+    font-size: 1.1rem; 
   }
 
   .learn-more {
-    padding: 0.8rem 1.2rem; /* Reduce padding of the button */
-    font-size: 0.9rem; /* Adjust button text size */
+    padding: 0.8rem 1.2rem; 
+    font-size: 0.9rem; 
   }
 
   .second-section{
@@ -1115,7 +1113,6 @@ footer{
     height: auto;
     display: flex;
     flex-direction: row;
-/*    justify-content: space-between;*/
     width: 100%;
   }
 
@@ -1150,24 +1147,24 @@ footer{
   }
 
   .third-section h2 {
-    font-size: 2rem; /* Smaller font size for small screens */
-    padding: 2rem 1rem; /* Adjusted padding */
+    font-size: 2rem; 
+    padding: 2rem 1rem; 
   }
 
   .barrier-container {
-    flex-direction: column; /* Stack items vertically */
-    padding-left: 1rem; /* Reduced padding */
-    padding-right: 1rem; /* Reduced padding */
-    padding-bottom: 2rem; /* Reduced padding */
+    flex-direction: column; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    padding-bottom: 2rem; 
   }
 
   .artificial-div, .logic-div, .application-div {
-    margin-bottom: 1.5rem; /* Add space between the blocks */
+    margin-bottom: 1.5rem; 
   }
 
   .artificial-div img, .logic-div img, .application-div img {
-    width: 100%; /* Further reduced image size */
-    margin: 0 auto; /* Center images */
+    width: 100%; 
+    margin: 0 auto; 
   }
 
   .content-div, .content-div-two {
@@ -1175,33 +1172,33 @@ footer{
   }
 
   .content-div p, .content-div-two p {
-    font-size: 0.95rem; /* Smaller font size */
-    padding-bottom: 2rem; /* Adjusted padding */
+    font-size: 0.95rem; 
+    padding-bottom: 2rem; 
   }
 
   .content-div span a, .content-div-two div a {
-    font-size: 0.95rem; /* Adjusted link font size */
+    font-size: 0.95rem; 
   }
 
   .solutions-btn {
-    width: 90%; /* Make the button almost full-width on very small screens */
+    width: 90%; 
   }
 
   .solutions-btn a {
-    padding: 0.6rem 1rem; /* Smaller padding for tight spaces */
-    font-size: 1rem; /* Adjust font size to fit better */
+    padding: 0.6rem 1rem; 
+    font-size: 1rem; 
   }
 
   .forth-section-content {
-    padding: 1.5rem 2rem; /* Adjust padding for mobile */
+    padding: 1.5rem 2rem; 
   }
 
   .forth-section-content h2 {
-    font-size: 1.8rem; /* Reduce the font size for very small screens */
+    font-size: 1.8rem; 
   }
 
   .forth-section-content p {
-    font-size: 1rem; /* Adjust paragraph font size for better readability on mobile */
+    font-size: 1rem; 
   }
 
   .card-slider {
@@ -1280,62 +1277,62 @@ footer{
 
   .seventh-section {
     padding: 1rem 1rem;
-    flex-direction: column; /* Reduce padding further on extra small screens */
+    flex-direction: column; 
   }
 
   .seventh-section-content {
-    width: 100%; /* Full width for all content */
+    width: 100%; 
   }
 
   .seventh-section-content ul li {
-    padding-bottom: 0.3rem; /* Further reduce padding */
+    padding-bottom: 0.3rem; 
   }
 
   .seventh-section-content ul li a {
-    font-size: 0.9rem; /* Further reduce font size */
+    font-size: 0.9rem; 
   }
 
   .icons-content h2 {
     font-size: 1.2rem;
-    padding-top: 2rem; /* Further reduce heading font size */
+    padding-top: 2rem; 
   }
 
   .combined-icons {
-    gap: 1rem; /* Further reduce the gap between icons */
+    gap: 1rem; 
   }
 
   .combined-icons a {
-    padding: 0.3rem; /* Smallest padding for extra small screens */
+    padding: 0.3rem; 
   }
 
   footer {
-    padding: 1rem 1rem; /* Reduce padding even more on extra small screens */
+    padding: 1rem 1rem; 
   }
 
   .footer-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
   .footer-content {
-    padding-bottom: 1rem; /* Reduce space between content */
+    padding-bottom: 1rem; 
   }
 
   .footer-inner-one, .footer-inner-two {
-    gap: 0.8rem; /* Reduce the gap further */
+    gap: 0.8rem; 
   }
 
   .footer-inner-one a, .footer-inner-two a {
-    font-size: 0.9rem; /* Further reduce font size */
+    font-size: 0.9rem;
   }
 
   .footer-inner-one a, .footer-inner-two a {
-    padding: 0.2rem 0; /* Adjust padding */
+    padding: 0.2rem 0; 
   }
 
   .copyright {
-    font-size: 0.9rem; /* Reduce the size of the copyright text */
+    font-size: 0.9rem; 
   }
 }

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Unisys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact_us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+          <div class="navbar">
+              <div class="logo"><a href="#" ><img src="images/Unisys_logo.png" alt="Unisys Logo" width="90"></a></div>
+              <ul class="links">
+                  <li><a href="hero">Solutions</a></li>
+                  <li><a href="about">Artificial Intelligence</a></li>
+                  <li><a href="services">Resources</a></li>
+                  <li><a href="contact">About</a></li>
+              </ul>
+              <a href="#" class="action_btn">Contact Us</a>
+              <div class="toggle_btn">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+          </div>
+
+          <div class="dropdown_menu">
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Artificial Intelligence</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+          </div>
+      </header>
+
+      <section class="contact-home">
+          <h2>Contact Us</h2>
+      </section>
+
+      <section class="unisys-content">
+          <div class="link-flex">
+              <a href="index.html">Unisys</a>
+              <span>/</span>
+              <div>Contact Us</div>
+          </div>
+      </section>
+
+      <section class="global">
+          <div class="global-left">
+              <div class="global-content">
+                  <h2>Push what's possible</h2>
+                  <p>Want to take your business’ technologies,<br/>teams and operations to the next level?<br/>We’re ready when you are. Start the<br/>process of making progress with us.</p>
+                  <hr/>
+                  <h3>Global Headquarters:</h3>
+                  <p>801 Lakeview Dr. Ste 100<br/>Blue Bell, PA 19422</p>
+                  <div class="call">
+                      <i class="fa fa-headphones"></i>
+                      <a href="tel:+888-409-9579">888-409-9579</a>
+                  </div>
+                  <h3>Associates are available:</h3>
+                  <p>Mon-Fri 9:00 AM-5:00 PM EST</p>
+              </div>
+              <div class="global-right">
+                  <h2>I am interested in</h2>
+                  <div class="solutions-content">
+                  <span>
+                      <i class="fa fa-calendar-plus-o"></i>
+                      <a href="#solutions-form" id="solutions-link" onclick="toggleForm('solutions')">Solutions</a>
+                  </span>
+                  <i class="fa fa-plus"></i>
+              </div>
+              <div class="product-content">
+                  <span>
+                      <i class="fa fa-refresh"></i>
+                      <a href="#" id="support-link">Product Support</a>
+                  </span>
+                  <i class="fa fa-arrow-right"></i>
+              </div>
+              <div class="inquiry-content">
+                  <span>
+                      <i class="fa fa-file-o"></i>
+                      <a href="#" id="faq-link">Other Inquires</a>
+                  </span>
+                  <i class="fa fa-arrow-right"></i>
+              </div>
+              
+
+              <!-- Forms (initially hidden) -->
+              <div id="solutions-form" class="form hidden">
+                  <button class="close-btn" onclick="closeForm()">Close</button> <!-- Close Button -->
+                  <h3>Solutions</h3>
+
+                  <form action="#" method="POST">
+                      <div class="names">
+                          <input type="text" id="firstname" name="firstname" required placeholder="First Name*">
+                          <input type="text" id="lastname" name="lastname" required placeholder="Last Name*">
+                      </div>
+                      <div class="emails">
+                          <input type="email" id="organizationemail" name="organizationemail" required placeholder="Organization Email*">
+                          <input type="email" id="phone" name="phone" placeholder="Phone">
+                      </div>
+                      <div>
+                          <select name="regions" id="regions">
+                            <option value="asian pacific">Asian Pacific</option>
+                            <option value="latin america">Latin America</option>
+                            <option value="north america">North America</option>
+                            <option value="uk and europe">UK and Europe</option>
+                          </select>
+                      </div>
+                      <div>
+                        <textarea id="inquiry" name="inquiry" placeholder="How can we help?"></textarea>
+                      </div>
+                      <div class="policies">
+                        
+                        <label for="policy"><input type="checkbox" id="policy" name="policy" value="policy">I agree to Unisys’ <a href="#">privacy</a> policy.*</label>
+                      </div>
+                      <div>
+
+                        <label for="terms"><input type="checkbox" id="terms" name="terms" value="terms">I agree to receive occasional communication from Unisys. Unisys<br/>respects your <a href="">privacy</a> and you can unsubscribe at any time.</label>
+                      </div>
+                      <button type="submit">Submit</button>
+                  </form>
+            
+          </div>
+              </div>
+          </div>
+          
+      </section>
+
+      <section class="seventh-section">
+      <div class="seventh-section-content">
+        <ul>
+          <li><a href="#">Insights</a></li>
+          <li><a href="#">Leadership</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Modern Slavery Act Statement</a></li>
+          <li><a href="#">Responsible AI Statement</a></li>
+        </ul>
+      </div>
+
+      <div class="icons-content">
+        <h2>Keep Breaking Through</h2>
+        <div class="combined-icons">
+          <a href="https://www.linkedin.com/company/unisys/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UCVFzCw3E0iGDp-5OmR8Ddww"><i class="fa fa-youtube-play"></i></a>
+          <a href="https://www.facebook.com/UnisysCorp/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/unisyscorp/"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-rss"></i></a>
+          <a href="#"><i class="fa fa-podcast"></i></a>
+        </div>
+      </div>
+    </section>
+    <hr class="mini-line" />
+
+    <footer>
+      <div class="footer-content">
+        <img src="images/Unisys_logo_2.png" width="25" height="25" />
+
+        <div class="footer-list">
+          <div class="footer-inner-one">
+            <a href="" />Terms of use</a>
+            <a href="" />Privacy notice</a>
+            <a href="" />Cookies</a>
+          </div>
+          <div class="footer-inner-two">
+            <a href="">Do not sell or share my information</a>
+            <a href="">Sitemap</a>
+            <a href="">Contact us</a>
+          </div>
+        </div>
+      </div>
+      
+      <p class="copyright">&copy; Unisys 2025</p>
+    </footer>
+
+    <!-- <script src="scripts.js"></script> -->
+    <script src="contact_us.js"></script>
+</body>
+</html>

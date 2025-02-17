@@ -1,0 +1,270 @@
+.contact-home {
+  height: 60vh;
+  background-color: #003134;
+  color: #fff;
+}
+
+.contact-home h2{
+  padding-left: 4rem;
+  padding-top: 13rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.unisys-content {
+  background-color: #fff;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+
+.link-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #003134;
+  padding-bottom: 0.5rem;
+}
+
+.link-flex a{
+  color: #003134;
+}
+
+.global {
+  padding: 2rem 4rem;
+  background-color: #e5e8e8;
+}
+
+.global-left {
+  background-color: #fff;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.global-right{
+  width: 65vw;
+  padding-left: 2rem;
+}
+
+.global-content {
+  width: 35vw;
+}
+
+.global-content h2{
+  color: #003134;
+  font-size: 2.2rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.global-content p{
+  color: #003134;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.global-content h3{
+  color: #003134;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.call{
+  color: #003134;
+}
+
+.call a{
+  color: #003134;
+}
+
+/*Form styles*/
+.solutions-content span a,
+.product-content span a,
+.inquiry-content span a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+}
+
+.global-right h2{
+  color: #003134;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.solutions-content, .product-content, .inquiry-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.2rem;
+  background-color: #003134;
+  color: #fff;
+}
+
+.solutions-content i, .product-content i, .inquiry-content i{
+  font-size: 1.2rem;
+}
+
+.solutions-content, .product-content {
+  margin-bottom: 1rem;
+}
+
+/* Form Styles */
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+    display: none; /* Hidden by default */
+}
+
+.form h3 {
+    margin-bottom: 20px;
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form button {
+    background-color: #fff;
+    color: #003134;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #003134;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* Close Button */
+.close-btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* Hidden Class (for hiding elements) */
+.hidden {
+    display: none;
+}
+
+.names input, .emails input, #regions{
+  width: 48%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#inquiry {
+  width: 96%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#terms, #policy{
+  display: inline;
+  width: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-home {
+    height: 50vh;  
+  }
+
+  .contact-home h2 {
+    padding-left: 2rem;  
+    padding-top: 13rem;   
+    font-size: 3rem;     
+  }
+
+  .unisys-content {
+    padding-left: 2rem; 
+  }
+
+  .link-flex {
+    flex-direction: row;
+    gap: 1rem; 
+    font-size: 1.1rem; 
+  }
+
+  .global-left{
+    flex-direction: column;
+  }
+
+  .solutions-content span a,
+  .product-content span a,
+  .inquiry-content span a {
+        font-size: 1.2rem; /* Slightly smaller font size for smaller screens */
+        margin: 5px;
+    }
+
+    .form {
+        width: 80%; /* Increase form width on smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px){
+  .contact-home {
+    height: 45vh; 
+  }
+
+  .contact-home h2 {
+    padding-left: 1.5rem; 
+    padding-top: 13rem;     
+    font-size: 2.5rem;     
+  }
+
+  .unisys-content {
+    padding-left: 1rem; 
+  }
+
+  .link-flex {
+    flex-direction: row; 
+    gap: 0.5rem; 
+    font-size: 1rem; 
+  }
+
+  .link-flex a {
+    text-align: left; 
+  }
+
+  .global-left{
+    flex-direction: column;
+  }
+
+  .solutions-content span a,
+  .product-content span a,
+  .inquiry-content span a {
+        font-size: 1rem; /* Smaller font size for mobile */
+        margin: 5px 0; /* Adjust spacing for mobile devices */
+    }
+
+    .form {
+        width: 90%; /* Form takes almost full width on very small screens */
+    }
+}

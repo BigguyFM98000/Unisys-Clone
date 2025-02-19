@@ -1,0 +1,225 @@
+.announces-header {
+	height: 70vh;
+	background-color: #003b30;
+	padding-left: 4rem;
+	padding-top: 3rem;
+}
+
+.announces-header h3{
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+} 
+
+.announces-header h2{
+	color: #fff;
+	font-size: 3.8rem;
+	font-weight: 500;
+}
+
+.navigator {
+	padding-left: 4rem;
+	padding-top: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
+.navigator a{
+	color: #003134;
+	font-size: 1.2rem;
+}
+
+.navigator span{
+	color: #003134;
+}
+
+.navigator div{
+	color: #003134;
+	font-size: 1.2rem;
+}
+
+.info-paragraphs {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-weight: 100;
+}
+
+.one {
+	width: 60vw;
+	padding-top: 3rem;
+	padding-left: 4rem;
+}
+
+.paragraph-one {
+	padding-bottom: 1rem;
+	font-size: 1.2rem;
+	color: #003b30;
+}
+
+.paragraph-one span{
+	font-weight: bold;
+}
+
+.paragraph-one a, .paragraph-three a, .paragraph-six a{
+	color: #003b30;
+}
+
+.paragraph-two, .paragraph-three, .paragraph-four, .paragraph-seven, .paragraph-five, .paragraph-six {
+	color: #003b30;
+	font-size: 1.2rem;
+	padding-bottom: 1rem;
+}
+
+.upcoming, .about, .contacts {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #003b30;
+	padding-bottom: 1rem;
+}
+
+.investors h3, .press h3{
+	font-weight: 100;
+	font-size: 1.2rem;
+	color: #003b30;
+}
+
+.investors p, .investors a, .press a, .press p{
+	color: #003b30;
+	font-size: 1.1rem;
+}
+
+.investors {
+	padding-bottom: 1rem;
+}
+
+.press {
+	padding-bottom: 1.5rem;
+}
+
+.hashtag {
+	margin: 0 auto;
+	color: #003b30;
+	text-align: center;
+}
+
+.release {
+	font-size: 1.2rem;
+	color: #003b30;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+.uis {
+	color: #003b30;
+	font-size: 1.2rem;
+	padding-bottom: 2rem;
+}
+
+.blue-box {
+	width: 35vw;
+	border: 1px solid #003b30;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 4rem;
+	margin-top: 3rem;
+	padding: 2rem;
+	background-color: #003b30;
+}
+
+.blue-box h3{
+	color: #fff;
+}
+
+.blue-box a {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .announces-header {
+    height: 90vh; /* Adjusting the height for smaller screens */
+    padding-left: 2rem; /* Less padding for smaller screens */
+    padding-top: 2rem;
+  }
+
+  .announces-header h2 {
+    font-size: 2.5rem; /* Decrease font size for smaller screens */
+  }
+
+  .navigator {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    flex-direction: row; /* Stack the navigator items vertically */
+    gap: 1rem;
+  }
+
+  .navigator a,
+  .navigator div {
+    font-size: 1rem; /* Adjust the font size */
+  }
+
+  .info-paragraphs {
+    flex-direction: column; /* Stack the content vertically */
+    width: 100%;
+  }
+
+  .one {
+    width: 100%; /* Full width for the content */
+    padding-left: 2rem; /* Less padding for mobile */
+  }
+
+  .paragraph-one,
+  .paragraph-two,
+  .paragraph-three,
+  .paragraph-four,
+  .paragraph-five,
+  .paragraph-six,
+  .paragraph-seven {
+    font-size: 1rem; /* Smaller text size for readability */
+    padding-bottom: 1rem;
+  }
+
+  .upcoming, .about, .contacts {
+    font-size: 1rem; /* Adjust title font size */
+  }
+
+  .investors h3, .press h3 {
+    font-size: 1rem; /* Adjust the subtitle font size */
+  }
+
+  .investors p, .press p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .blue-box {
+    width: 100%; /* Adjust the width for smaller screens */
+    flex-direction: row; /* Stack the items in the box vertically */
+    margin-top: 2rem;
+    gap: 2rem; /* Reduced gap between the items */
+    padding: 1.5rem;
+  }
+
+  .blue-box h3 {
+    font-size: 1.2rem; /* Adjust heading font size */
+  }
+
+  .blue-box a {
+    font-size: 1.3rem; /* Adjust social media icon size */
+    margin: 0.5rem;
+  }
+
+  .release {
+    font-size: 1rem; /* Adjust release section font size */
+  }
+
+  .uis {
+    font-size: 1rem; /* Adjust the font size */
+  }
+}

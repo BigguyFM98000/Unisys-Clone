@@ -1,0 +1,277 @@
+.ai-header {
+	height: 91vh;
+	background-color: #007173;
+	padding-left: 4rem;
+	padding-top: 15rem;
+	padding-bottom: 4rem;
+}
+
+.ai-header h3{
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 300;
+	padding-bottom: 1.5rem;
+	text-transform: uppercase;
+} 
+
+.ai-header h2{
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 300;
+	padding-bottom: 1.5rem;
+}
+
+.citation {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
+.citation div{
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.citation span{
+	color: #001a17;
+} 
+
+.citation a{
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.service-desk {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+	padding-left: 4rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.service-desk a, .service-desk div{
+	color: #003134;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.service-desk span{
+	color: #003134;
+}
+
+.whole-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 4rem;
+}
+
+.clock-content {
+	width: 50vw;
+	background-color: #f2f5f5;
+	margin-left: 4rem;
+	padding: 3rem;
+	border-top-left-radius: 2rem;
+	color: #003134;
+	margin-bottom: 3rem;
+}
+
+.clock {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 0.5rem;
+}
+
+.clock i{
+	font-size: 1.5rem;
+}
+
+.clock h3{
+	font-size: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.clock-content ul li p{
+	line-height: 1.5em;
+	font-size: 1.2rem;
+}
+
+.share-this {
+	width: 40vw;
+	border: 1px solid #003134;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
+	background-color: #003134;
+	padding: 2rem;
+	color: #fff;
+}
+
+.share-this a i{
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+/* Paragraph styles */
+.ai_transforms {
+	margin-left: 4rem;
+	color: #003134;
+}
+
+.ai_transforms h2{
+	font-size: 1.7rem;
+	font-weight: bold;
+	padding-bottom: 2rem;
+}
+
+.ai_transforms p{
+	font-size: 1.2rem;
+	font-weight: 300;
+	padding-bottom: 1.5rem;
+	line-height: 1.5em;
+}
+
+.episode a, .contact-unisys a{
+	color: #003134;
+}
+
+.blog-posts {
+	margin-left: 4rem;
+	margin-top: 6rem;
+}
+
+.blog-posts h2{
+	color: #003134;
+	font-size: 3rem;
+	font-weight: 400;
+	padding-bottom: 2rem;
+}
+
+.blog-cards {
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+/*	gap: 2rem;*/
+}
+
+@media (max-width: 768px) {
+    .ai-header {
+        height: 80vh;
+        padding-left: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .ai-header h3 {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .ai-header h2 {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .citation {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .citation div,
+    .citation a {
+        font-size: 1rem;
+    }
+
+    .service-desk {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .service-desk a, .service-desk div {
+        font-size: 1rem;
+    }
+
+    .service-desk span {
+        font-size: 1rem;
+    }
+
+    .whole-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clock-content {
+        width: 100%;
+        margin-left: 0;
+        padding: 2rem;
+    }
+
+    .clock-content ul li p {
+        font-size: 1rem;
+    }
+
+    .share-this {
+        width: 100%;
+        padding: 1.5rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .share-this a i {
+        font-size: 1.2rem;
+    }
+
+    .ai_transforms {
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+
+    .ai_transforms h2 {
+        font-size: 1.5rem;  
+        padding-bottom: 1.5rem;
+    }
+
+    .ai_transforms p {
+        font-size: 1rem;  
+    }
+
+    .episode a, .contact-unisys a {
+        font-size: 1rem; 
+    }
+
+    .blog-posts {
+        margin-left: 2rem;
+        margin-top: 3rem;  
+    }
+
+    .blog-posts h2 {
+        font-size: 2rem;  
+        padding-bottom: 1.5rem; 
+    }
+
+    .blog-cards {
+        margin-bottom: 1.5rem; 
+        flex-direction: column !important; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+    }
+
+    .card {
+        width: 90%;  
+        margin-bottom: 2rem; 
+    }
+}

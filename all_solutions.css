@@ -1,0 +1,177 @@
+.solutions {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.solutions-left {
+	width: 40vw;
+	height: 93vh;
+	padding-left: 4rem;
+	padding-top: 6rem;
+	background-color: #2a2e3c;
+}
+
+.solutions-left h2{
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 500;
+	padding-bottom: 1.5rem;
+}
+
+.solutions-left p{
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.solutions-right {
+	background-image: url('images/hero-it-enterprise-solutions.webp');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 60vw;
+	height: 93vh;
+}
+
+.solutionz {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+	margin-left: 4rem;
+	margin-top: 3rem;
+}
+
+.solutionz a, .solutionz div{
+	color: #003134;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.solutionz span{
+	color: #003134;
+}
+
+.business-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.heading-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+	padding-top: 3rem;
+	padding-left: 3rem;
+	padding-bottom: 1rem;
+}
+
+.heading-container h2{
+	color: #00e58e;
+}
+
+.processes-content {
+	width: 30vw;
+	height: 60vh;
+	background-color: #003134;
+}
+
+.processes-content p{
+	padding-left: 8rem;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.5;
+}
+
+.processes-content span{
+	font-size: 2rem;
+	font-weight: 800;
+	color: #00e58e;
+	margin-left: 20rem;
+}
+
+@media (max-width: 768px) {
+  .solutions {
+    flex-direction: column;
+  }
+
+  .solutions-left {
+    width: 100%;
+    height: 73vh;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+
+  .solutions-left h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .solutions-left p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .solutions-right {
+    width: 100%;
+    height: 73vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .solutionz {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .solutionz a, .solutionz div {
+    font-size: 1rem;
+  }
+
+  .business-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-container {
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+  .heading-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .processes-content {
+    width: 90vw;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+
+  .processes-content p {
+    padding-left: 6rem;
+    font-size: 1rem;
+  }
+
+  .processes-content span {
+    font-size: 1.5rem;
+    margin-left: 15rem;
+  }
+}

@@ -1,0 +1,79 @@
+.ai-picture{
+	width: 50vw;
+	height: 93vh;
+	background-image: url('images/hero-ai.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ai-header {
+	width: 50vw;
+	height: 93vh;
+	background-color: #131c29;
+	padding-left: 4rem;
+	padding-top: 8rem;
+}
+
+.ai-header h2{
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 300;
+	padding-bottom: 1.5rem;
+}
+
+.ai-header p{
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.5;
+	padding-bottom: 3rem;
+}
+
+.ai-header a{
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 0.8rem;
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.artificial {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+  .artificial {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .ai-header, .ai-picture {
+    width: 100%;
+    height: 60vh;
+    padding-left: 2rem;
+    padding-top: 4rem;
+  }
+
+  .ai-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .ai-header p {
+    font-size: 1rem;
+  }
+
+  .ai-header a {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+  }
+
+  .ai-picture {
+    height: 250px;  /* Adjust the height of the image */
+  }
+}

@@ -1,0 +1,71 @@
+.solutions-header {
+	width: 100vw;
+	height: 93vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 2rem;
+}
+
+.solutions-content {
+	width: 40vw;
+	height: 93vh;
+	padding-left: 4rem;
+	padding-top: 6rem;
+	color: #fff;
+	background-color: #384f72;
+}
+
+.solutions-content h2{
+	font-size: 4rem;
+	font-weight: 300;
+	padding-bottom: 1.5rem;
+}
+
+.solutions-content p{
+	font-size: 1.3rem;
+	font-weight: 200;
+	line-height: 1.5;
+}
+
+.solutions-image {
+	width: 60vw;
+	height: 93vh;
+	background-image: url('images/solutions-hero-industries-1440x750-optimized.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .solutions-header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .solutions-content {
+    width: 100%;
+    height: 70vh; 
+    padding-left: 2rem; 
+    padding-top: 4rem; 
+    text-align: center; 
+  }
+
+  .solutions-content h2 {
+    font-size: 2.5rem; 
+    padding-bottom: 1rem; 
+  }
+
+  .solutions-content p {
+    font-size: 1.1rem; 
+    line-height: 1.4; 
+  }
+
+  .solutions-image {
+    width: 100%; 
+    height: 40vh;  
+    background-size: cover;
+  }
+}

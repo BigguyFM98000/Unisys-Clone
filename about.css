@@ -1,0 +1,56 @@
+.about-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 4rem;
+}
+
+.about-content {
+	width: 40vw;
+	height: 93vh;
+	background-color: #122f1f;
+	padding-left: 4rem;
+}
+
+.about-content h2{
+	padding-top: 16rem;
+	color: #fff;
+	font-size: 4.5rem;
+	font-weight: 500;
+}
+
+.about-image {
+	width: 60vw;
+	height: 93vh;
+	background-image: url('images/hero-unisys-about-mobile.webp');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .about-content {
+    width: 100%; 
+    height: 50vh; 
+    padding-left: 2rem;
+    padding-top: 8rem; 
+  }
+
+  .about-content h2 {
+    font-size: 2.5rem; 
+    padding-top: 0;
+    text-align: center; 
+  }
+
+  .about-image {
+    width: 100%; 
+    height: 60vh;  
+    background-size: cover; 
+  }
+}
